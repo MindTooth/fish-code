@@ -9,6 +9,6 @@ jobs:
         with:
           fetch-depth: 0
       - run: npm install --save-dev @vidavidorra/commitlint-config
-      - uses: wagoid/commitlint-github-action@456526eec71276a59e74aafdfe06a9632ac2eee1 # v5.4.1
+      - uses: wagoid/commitlint-github-action@6319f54d83768b60acd6fd60e61007ccc583e62f # v5.4.3
         env:
           NODE_PATH: ${{ github.workspace }}/node_modules
