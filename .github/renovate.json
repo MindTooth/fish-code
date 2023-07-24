@@ -4,6 +4,7 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)"
+    ":timezone(Europe/Berlin)",
+    ":automergeStableNonMajor"
   ]
 }
