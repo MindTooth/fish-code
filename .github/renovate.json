@@ -4,7 +4,8 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)"
+    ":timezone(Europe/Berlin)",
+    ":disableRateLimiting"
   ],
 
   "enabledManagers": ["github-actions", "npm", "pep621"]
