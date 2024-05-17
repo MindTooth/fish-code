@@ -4,7 +4,8 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)",
-    ":automergeStableNonMajor"
-  ]
+    ":timezone(Europe/Berlin)"
+  ],
+
+  "enabledManagers": ["github-actions", "npm", "pep621"]
 }
