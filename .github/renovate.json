@@ -5,7 +5,8 @@
     "config:best-practices",
     ":label(dependencies)",
     ":timezone(Europe/Berlin)",
-    ":disableRateLimiting"
+    ":disableRateLimiting",
+    "helpers:pinGitHubActionDigestsToSemver"
   ],
 
   "enabledManagers": ["github-actions", "npm", "pep621"]
