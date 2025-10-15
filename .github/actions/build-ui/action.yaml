@@ -1,7 +1,7 @@
 runs:
   using: composite
   steps:
-    - uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3
+    - uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
       with:
         node-version: 18
     - name: Build UI
